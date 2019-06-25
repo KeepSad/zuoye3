@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#91b5af"
+    android:orientation="horizontal">
+
+    <ImageView
+       android:src="@drawable/load"
+        android:id="@+id/animImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:id="@+id/tvTip"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:text="is Loading..." />
+
+</LinearLayout>
